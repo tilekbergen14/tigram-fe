@@ -1,0 +1,65 @@
+.auth-page {
+  height: 100vh;
+  min-height: 600px;
+  display: flex;
+}
+.auth-image {
+  height: 100%;
+  width: 50%;
+}
+.auth-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.auth-part {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.auth-inputs {
+  width: 300px;
+}
+.google-icon {
+  height: 24px;
+}
+.lock-badge {
+  background-color: var(--blue);
+  border-radius: 50%;
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
+.lock-icon {
+  padding: 0;
+  margin: 10px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.auth-link {
+  font-size: 14px;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.small-text {
+  font-size: 13px;
+}
+@media screen and (max-width: 1200px) {
+  .auth-image {
+    display: none;
+  }
+}
